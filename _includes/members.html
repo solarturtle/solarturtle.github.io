@@ -1,0 +1,7 @@
+{% for member in site.data.members %}
+
+<h2><a href="https://github.com/{{ member.github }}">{{ member.name }}</a></h2>
+
+<p>{{ member.blurb }}</p>
+
+{% endfor %}
